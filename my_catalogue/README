@@ -1,0 +1,24 @@
+# Item-Catalog
+This application provides a list of items within a variety of categories as well as
+a user registration and authentication system. Registered users have the ability to post,
+edit and delete their own items. This project was based on the code provided by udacity
+at https://github.com/udacity/ud330/tree/master/Lesson4/step2.
+
+# Instructions to Run the Project
+Download Vagrant and create a virtual box environment.
+Place this project code inside the vagrant folder and run
+$ vagrant up
+from the directory the project is in and then
+$ vagrant ssh
+to login to the virtual machine. cd to the
+project directory within Vagrant and run
+$ python database_setup.py
+to create the database. You can create a
+pre-made example catalogue by running
+$ python lotsoflists.py
+Otherwise type
+$ python project.py
+to run the project.
+
+You can access the webpage in a browser at:
+http://localhost:5000
